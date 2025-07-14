@@ -1,0 +1,20 @@
+<form action="https://rc.esewa.com.np/epay/main" method="POST">
+  <input value="100" name="tAmt" type="hidden" />
+  <input value="100" name="amt" type="hidden" />
+  <input value="0" name="txAmt" type="hidden" />
+  <input value="0" name="psc" type="hidden" />
+  <input value="0" name="pdc" type="hidden" />
+  <input value="EPAYTEST" name="scd" type="hidden" />
+  <input value="TEST123456" name="pid" type="hidden" />
+  <input
+    value="http://localhost/ecommerce-master/esewa-success.php"
+    type="hidden"
+    name="su"
+  />
+  <input
+    value="http://localhost/ecommerce-master/esewa-fail.php"
+    type="hidden"
+    name="fu"
+  />
+  <button type="submit">Pay with eSewa</button>
+</form>
