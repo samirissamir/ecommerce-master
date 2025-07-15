@@ -9,6 +9,6 @@ if (isset($_GET['oid']) && isset($_GET['amt']) && isset($_GET['refId'])) {
     echo "<p>Reference ID: " . htmlspecialchars($_GET['refId']) . "</p>";
     //aba esma yo sab halda hunxa Save order, clear cart, etc.
 } else {
-    echo "<h2>Invalid payment or session.</h2>";
+    echo "<h2>Invalid payment or session. ok</h2>";
 }
 ?> 
